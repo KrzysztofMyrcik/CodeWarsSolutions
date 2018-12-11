@@ -1,5 +1,6 @@
 public class Maskify {
     public static String maskify(String text) {
+       // return text.replaceAll(".(?=.{4})", "#"); Best soution
         StringBuilder string1 = new StringBuilder();
         StringBuilder string2 = new StringBuilder();
         if (text.length() <= 3) {
